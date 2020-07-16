@@ -23,18 +23,26 @@ public class PrimeiraClasseJava {
 		aluno1.setDataMatricula("14/07/2020");
 		aluno1.setSerieMatriculado("5");
 		aluno1.setNomeEscola("Escola JDEV Treinamento");
+		aluno1.setNota1(90);
+		aluno1.setNota2(80.8);
+		aluno1.setNota3(70.9);
+		aluno1.setNota4(90.7);
 		
 		
 		System.out.println("Nome é = " + aluno1.getNome());
 		System.out.println("Idade é = " + aluno1.getIdade());
 		System.out.println("Data de Nascimento é = " + aluno1.getDataNascimento());
-		System.out.println("Nome é = " + aluno1.getRegistroGeral());
+		System.out.println("Identidade é = " + aluno1.getRegistroGeral());
 		System.out.println("Numero do CPF é = " + aluno1.getNumeroCpf());
 		System.out.println("Nome da Mãe é = " + aluno1.getNomeMae());
 		System.out.println("Nome do Pai é = " + aluno1.getNomePai());
 		System.out.println("Numero da Matricula é = " + aluno1.getDataMatricula());
 		System.out.println("Série do Matriculado é = " + aluno1.getSerieMatriculado());
 		System.out.println("Nome da Escola é = " + aluno1.getNomeEscola());
+		System.out.println("Média da Nota é = " + aluno1.getMediaNota());
+		System.out.println("Resultado = " + (aluno1.getAlunoAprovado() ? "Aprovado" : "Reprovado"));
+		System.out.println("Resultado 2 = " + aluno1.getAlunoAprovado2());
+		
 		System.out.println("");
 		
 		System.out.println("------------------------------------------------------");
@@ -54,17 +62,25 @@ public class PrimeiraClasseJava {
 		aluno2.setDataMatricula("14/07/2020");
 		aluno2.setSerieMatriculado("10");
 		aluno2.setNomeEscola("Escola JDEV Treinamento");
+		aluno2.setNota1(80);
+		aluno2.setNota2(90.8);
+		aluno2.setNota3(80.9);
+		aluno2.setNota4(70.7);
 		
 		System.out.println("Nome é = " + aluno2.getNome());
 		System.out.println("Idade é = " + aluno2.getIdade());
 		System.out.println("Data de Nascimento é = " + aluno2.getDataNascimento());
-		System.out.println("Nome é = " + aluno2.getRegistroGeral());
+		System.out.println("Identidade é = " + aluno2.getRegistroGeral());
 		System.out.println("Numero do CPF é = " + aluno2.getNumeroCpf());
 		System.out.println("Nome da Mãe é = " + aluno2.getNomeMae());
 		System.out.println("Nome do Pai é = " + aluno2.getNomePai());
 		System.out.println("Numero da Matricula é = " + aluno2.getDataMatricula());
 		System.out.println("Série do Matriculado é = " + aluno2.getSerieMatriculado());
 		System.out.println("Nome da Escola é = " + aluno2.getNomeEscola());
+		System.out.println("Média da Nota é = " + aluno2.getMediaNota());
+		System.out.println("Resultado = " + (aluno2.getAlunoAprovado() ? "Aprovado" : "Reprovado"));
+		System.out.println("Resultado 2 = " + aluno2.getAlunoAprovado2());
+		System.out.println("");
 		
 		System.out.println("------------------------------------------------------");
 		System.out.println("");
@@ -83,17 +99,25 @@ public class PrimeiraClasseJava {
 		aluno3.setDataMatricula("13/07/2020");
 		aluno3.setSerieMatriculado("8");
 		aluno3.setNomeEscola("Escola JDEV Treinamento");
+		aluno3.setNota1(70);
+		aluno3.setNota2(60.8);
+		aluno3.setNota3(60.9);
+		aluno3.setNota4(60.7);
 		
 		System.out.println("Nome é = " + aluno3.getNome());
 		System.out.println("Idade é = " + aluno3.getIdade());
 		System.out.println("Data de Nascimento é = " + aluno3.getDataNascimento());
-		System.out.println("Nome é = " + aluno3.getRegistroGeral());
+		System.out.println("Identidade é = " + aluno3.getRegistroGeral());
 		System.out.println("Numero do CPF é = " + aluno3.getNumeroCpf());
 		System.out.println("Nome da Mãe é = " + aluno3.getNomeMae());
 		System.out.println("Nome do Pai é = " + aluno3.getNomePai());
 		System.out.println("Numero da Matricula é = " + aluno3.getDataMatricula());
 		System.out.println("Série do Matriculado é = " + aluno3.getSerieMatriculado());
 		System.out.println("Nome da Escola é = " + aluno3.getNomeEscola());
+		System.out.println("Média da Nota é = " + aluno3.getMediaNota());
+		System.out.println("Resultado = " + (aluno3.getAlunoAprovado() ? "Aprovado" : "Reprovado"));
+		System.out.println("Resultado 2 = " + aluno3.getAlunoAprovado2());
+		System.out.println("");
 		
 		System.out.println("------------------------------------------------------");
 		System.out.println("");
@@ -112,17 +136,25 @@ public class PrimeiraClasseJava {
 		aluno4.setDataMatricula("12/05/2020");
 		aluno4.setSerieMatriculado("9");
 		aluno4.setNomeEscola("Escola JDEV Treinamento");
+		aluno4.setNota1(70);
+		aluno4.setNota2(60.8);
+		aluno4.setNota3(70.9);
+		aluno4.setNota4(40.7);
 		
 		System.out.println("Nome é = " + aluno4.getNome());
 		System.out.println("Idade é = " + aluno4.getIdade());
 		System.out.println("Data de Nascimento é = " + aluno4.getDataNascimento());
-		System.out.println("Nome é = " + aluno4.getRegistroGeral());
+		System.out.println("Identidade é = " + aluno4.getRegistroGeral());
 		System.out.println("Numero do CPF é = " + aluno4.getNumeroCpf());
 		System.out.println("Nome da Mãe é = " + aluno4.getNomeMae());
 		System.out.println("Nome do Pai é = " + aluno4.getNomePai());
 		System.out.println("Numero da Matricula é = " + aluno4.getDataMatricula());
 		System.out.println("Série do Matriculado é = " + aluno4.getSerieMatriculado());
 		System.out.println("Nome da Escola é = " + aluno4.getNomeEscola());
+		System.out.println("Média da Nota é = " + aluno4.getMediaNota());
+		System.out.println("Resultado = " + (aluno4.getAlunoAprovado() ? "Aprovado" : "Reprovado"));
+		System.out.println("Resultado 2 = " + aluno4.getAlunoAprovado2());
+		System.out.println("");
 		
 		System.out.println("------------------------------------------------------");
 		System.out.println("");
